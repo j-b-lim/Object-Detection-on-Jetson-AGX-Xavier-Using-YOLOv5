@@ -12,7 +12,7 @@ The JetPack installation process is omitted for brevity.
 - PyTorch: 1.12.0 (NVIDIA Jetson build, 1.12.0a0+2c916ef.nv22.3)
 - TorchVision: 0.12.0
 
-## **Installation**
+## **Environment Setup**
 ```shell
 python3 -m pip install --upgrade pip  
 pip3 install -U PyYAML
@@ -22,3 +22,11 @@ pip3 install -U numpy
 pip3 install cycler kiwisolver pyparsing python-dateutil matplotlib  
 pip3 install scipy pillow
 ```
+<img width="1267" height="329" alt="image" src="https://github.com/user-attachments/assets/cc474509-d87e-4e80-8707-1b22fa0ad622" />
+
+```shell
+wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.11.0-cp38-cp38-linux_aarch64.whl
+pip3 install torch-1.11.0-cp38-cp38-linux_aarch64.whl  
+pip3 install typing-extensions==3.10.0.2  
+```
+

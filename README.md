@@ -30,6 +30,7 @@ The following steps install the official NVIDIA PyTorch and TorchVision builds c
 
 More details can be found [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048).
 
+- Pytorch
 <img width="1958" height="511" alt="image" src="https://github.com/user-attachments/assets/23b18ffa-5555-4285-9ed2-53d8c401f30c" />
 
 <img width="1964" height="511" alt="image" src="https://github.com/user-attachments/assets/b17ff7da-073a-48cf-b8cc-9b8396a9f6e4" />
@@ -40,6 +41,7 @@ pip3 install torch-1.12.0-cp38-cp38-linux_aarch64.whl
 pip3 install typing-extensions==3.10.0.2  
 ```
 
+- Torchvision
 <img width="1964" height="511" alt="image" src="https://github.com/user-attachments/assets/0dd2188d-f358-4b93-98c6-71e548b45f15" />
 
 

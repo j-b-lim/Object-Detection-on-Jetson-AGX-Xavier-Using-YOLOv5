@@ -73,6 +73,7 @@ True
 ## **Quick Start**
 ```shell
 pip3 install --user ultralytics
+git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 python3 detect.py
 ```

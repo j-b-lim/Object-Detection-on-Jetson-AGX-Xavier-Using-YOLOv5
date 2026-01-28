@@ -55,7 +55,12 @@ python3 setup.py install --user
 ## **Verify Pytorch & Torchvision**
 Run the following command in Python to check the installed versions and whether CUDA (GPU) is available
 ```shell
-python3 -c "import torch, torchvision; print(torch.__version__); print(torchvision.__version__); print(torch.cuda.is_available())"
+python3
+import torch
+import torchvision
+print(torch.__version__)
+print(torchvision.__version__)
+print(torch.cuda.is_available())
 ```
 
 Expected output

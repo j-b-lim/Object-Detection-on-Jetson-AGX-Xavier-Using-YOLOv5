@@ -36,8 +36,8 @@ More details can be found [here](https://forums.developer.nvidia.com/t/pytorch-f
 <img width="1964" height="511" alt="image" src="https://github.com/user-attachments/assets/b17ff7da-073a-48cf-b8cc-9b8396a9f6e4" />
 
 ```shell
-wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.12.0-cp38-cp38-linux_aarch64.whl
-pip3 install torch-1.12.0-cp38-cp38-linux_aarch64.whl  
+wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O  torch-1.12.0a0+2c916ef.nv22.3-cp38-cp38-linux_aarch64.whl
+pip3 install torch-1.12.0a0+2c916ef.nv22.3-cp38-cp38-linux_aarch64.whl
 pip3 install typing-extensions==3.10.0.2  
 ```
 

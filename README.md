@@ -43,5 +43,10 @@ pip3 install typing-extensions==3.10.0.2
 
 - Torchvision
 <img width="1964" height="511" alt="image" src="https://github.com/user-attachments/assets/0dd2188d-f358-4b93-98c6-71e548b45f15" />
-
-
+```shell
+sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libopenblas-dev libavcodec-dev libavformat-dev libswscale-dev
+git clone --branch v0.12.0 https://github.com/pytorch/vision torchvision
+cd torchvision 
+export BUILD_VERSION=0.12.0
+python3 setup.py install --user
+```

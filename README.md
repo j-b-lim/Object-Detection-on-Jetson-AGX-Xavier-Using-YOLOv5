@@ -22,10 +22,12 @@ pip3 install -U numpy
 pip3 install cycler kiwisolver pyparsing python-dateutil matplotlib  
 pip3 install scipy pillow
 ```
-<img width="1267" height="329" alt="image" src="https://github.com/user-attachments/assets/cc474509-d87e-4e80-8707-1b22fa0ad622" />
+<img width="1958" height="511" alt="image" src="https://github.com/user-attachments/assets/23b18ffa-5555-4285-9ed2-53d8c401f30c" />
+
+<img width="1964" height="517" alt="image" src="https://github.com/user-attachments/assets/b17ff7da-073a-48cf-b8cc-9b8396a9f6e4" />
 
 ```shell
-wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.11.0-cp38-cp38-linux_aarch64.whl
+wget https://nvidia.box.com/shared/static/p57jwntv436lfrd78inwl7iml6p13fzh.whl -O torch-1.12.0-cp38-cp38-linux_aarch64.whl
 pip3 install torch-1.11.0-cp38-cp38-linux_aarch64.whl  
 pip3 install typing-extensions==3.10.0.2  
 ```

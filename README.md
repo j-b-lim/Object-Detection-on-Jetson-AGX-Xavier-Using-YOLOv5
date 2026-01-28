@@ -27,6 +27,7 @@ pip3 install scipy pillow
 
 ## **Install PyTorch**
 The following steps install the official NVIDIA PyTorch build compatible with JetPack 5.x on Jetson AGX Xavier.
+
 More details can be found [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048).
 
 <img width="1958" height="511" alt="image" src="https://github.com/user-attachments/assets/23b18ffa-5555-4285-9ed2-53d8c401f30c" />

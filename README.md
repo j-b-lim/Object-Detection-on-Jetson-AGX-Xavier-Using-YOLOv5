@@ -23,7 +23,6 @@ pip3 install cython
 pip3 install -U numpy
 pip3 install cycler kiwisolver pyparsing python-dateutil matplotlib  
 pip3 install scipy pillow
-pip3 install --user ultralytics
 ```
 
 ## **Install PyTorch & Torchvision**
@@ -53,8 +52,22 @@ export BUILD_VERSION=0.12.0
 python3 setup.py install --user
 ```
 
+##**Verify Pytorch & Torchvision**
+Run the following command in Python to check the installed versions and whether CUDA (GPU) is available
+```shell
+python3 -c "import torch, torchvision; print(torch.__version__); print(torchvision.__version__); print(torch.cuda.is_available())"
+```
+
+Expected output
+```shell
+1.12.0a0+2c916ef.nv22.3
+0.12.0
+True
+```
+
 ## **Quick Start**
 ```shell
+pip3 install --user ultralytics
 cd yolov5
 python3 detect.py
 ```

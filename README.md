@@ -23,6 +23,7 @@ pip3 install cython
 pip3 install -U numpy
 pip3 install cycler kiwisolver pyparsing python-dateutil matplotlib  
 pip3 install scipy pillow
+pip3 install --user ultralytics
 ```
 
 ## **Install PyTorch & Torchvision**
@@ -51,3 +52,11 @@ cd torchvision
 export BUILD_VERSION=0.12.0
 python3 setup.py install --user
 ```
+
+## **Quick Start**
+```shell
+cd yolov5
+python3 detect.py
+```
+
+If you have any questions, please feel free to contact the writer at rkfakehd112@gmail.com.
